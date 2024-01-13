@@ -7,5 +7,6 @@ using std::endl;
 
 void main()
 {
+	int value = 195;
 
 }
