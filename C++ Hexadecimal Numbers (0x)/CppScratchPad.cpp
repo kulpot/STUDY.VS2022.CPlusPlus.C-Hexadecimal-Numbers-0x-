@@ -7,7 +7,11 @@ using std::endl;
 
 void main()
 {
-	int value = 195;
-	cout << value << endl;
+	//int value = 195;	// decimal - compiler does extrawork for binary convertion
+	//cout << value << endl;
+	//cout << std::hex << value << endl;		// output: C3
+	
+	int value = 0xC3;	// hexadecimal	- you can use hexadecimal value into code
+	cout << value << endl;		//output: 195
 	cout << std::hex << value << endl;		// output: C3
 }
