@@ -9,4 +9,5 @@ void main()
 {
 	int value = 195;
 	cout << value << endl;
+	cout << std::hex << value << endl;
 }
